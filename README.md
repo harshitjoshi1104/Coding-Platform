@@ -2,34 +2,23 @@
 
 This is a Webapp I've created as my college level minor project. This website helps students who want to prepare for technical interviews but are not able to find right material for preparation. Interview Oriented Questions are provided in the website along with the frequency count.
 
-## Available Scripts
+## Available Pages
 
 In the project directory, you can run:
 
-### `npm start`
+### `Home or Explore Page`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is the Home page of the website which simply has a Heading stating stating what website does and some navigation bar to browse other sections of the website.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `Problems Page`
 
-### `npm test`
+This page contains the list of all the questions (right now approx 20-25). Status is also provided along with the questions so authenticated user can see what all questions they have already done. Along with this 'Accuracy' is also provided stating the difficulty of the questions, Frequency count is also given to each question, this represents how many times this question is asked in an interview in recent 5 years. There are links for several study cards are also provided so user can learn the required topics of data structures and algorithm
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `Study Card`
 
-### `npm run build`
+These Cards helps user to grasp a good amount of understanding in certein topics like Dynamic Programming , or Binary Search etc. All necessay details about the topic is provided in the card along with the Questions to practice.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
+### `Question Page`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
