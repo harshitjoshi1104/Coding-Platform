@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# About The Coding Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a Webapp I've created as my college level minor project. This website helps students who want to prepare for technical interviews but are not able to find right material for preparation. Interview Oriented Questions are provided in the website along with the frequency count.
 
 ## Available Scripts
 
