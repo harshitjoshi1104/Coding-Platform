@@ -22,11 +22,13 @@ These Cards helps user to grasp a good amount of understanding in certein topics
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This Page contains the Questions and Description:
+1) Questions Description:- Stating the Problem.
+3) Examples :- Some Outputs are provided corresponding to the some input examples.
+4) Questions Details:- Details tab is also provided so user can know Difficulty level of the questions, category of the question , companies it is asked in etc.
+5) Average Timer:- Average Time is also provided for every question, reason being interviews are time specific, the moment we open a question the timer starts, of-                   course we have infinite time to solve the question but solving it in specified average time will give you an idea of your understanding of the topics.
+6) Integerated Compiler:- An integerated Compiler is also provided for three Different languages ( **Python, C++, Java** ) user can code in any of these languages and               run the code by either inputing some variables or leave the input field blank and can run the Code. Compiler will send the code and language to backend                 where it will run the code and produce output accordingly and send it back to frontend. The timebound of 8 sec is also applied so it will produce TLE if               code has infinite loops.
+7) Submitting Code :- You can run code endlessly but once you submit the code (authentication is must) the code will run on the hidden testcases and if it is able to                 pass all the test cases it will produce the All Correct (AC) response and save that questions status as completed in the users database. If it fails any               of the hidden test case it will produce wrong answer.
 
 ## Learn More
 
