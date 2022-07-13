@@ -1,0 +1,11 @@
+.ques-card-page{
+    width: 100%;
+    /* background-color: aliceblue; */
+    /* height: 50vh; */
+    margin-top: 1cm;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

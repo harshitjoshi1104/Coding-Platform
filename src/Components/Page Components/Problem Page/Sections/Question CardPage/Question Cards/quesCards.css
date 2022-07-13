@@ -1,0 +1,49 @@
+.ques-card{
+    width:80%;
+    height:3rem;
+    background: rgba(0,0,244,0.3);
+    backdrop-filter: blur(40%) brightness(100%);
+    margin-bottom: 6mm;
+    padding: 3mm;
+    border-left: 1px solid rgba(255,255,255,0.4);
+    border-top: 1px solid rgba(255,255,255,0.4);
+    transition: background-color 300ms;
+    /* backdrop-filter: blur(20%) brightness(100%); */
+    backdrop-filter: blur(10px) brightness(100%) saturate(160%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.ques-card:hover{
+    background-color: rgba(26,26,26,0.6);
+    background:rgba(0,255,0,0.5);
+    /* background-color: ; */
+    cursor: pointer;
+}
+
+.ques-card h1{
+    /* background-color: rgba(0,0,128,0.5); */
+    /* padding: 5mm; */
+    font-size: 22px;
+    font-family: sans-serif;
+    color: rgba(255,255,255,0.7);
+}
+
+.ques-card p{
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgba(255,255,255,0.4);
+}
+
+.company-tags{
+    width: 60%;
+    height: 3cm;
+    position:absolute;
+    /* display: none; */
+    /* background-color: cadetblue; */
+    left: 21%;
+    display: flex;
+    flex-direction: row;
+    /* top: 10%; */
+    
+}

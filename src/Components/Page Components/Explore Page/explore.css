@@ -1,0 +1,88 @@
+.explore-page{
+    width: 100%;
+    height: 85.5vh;
+    margin-top: 15mm;
+    backdrop-filter: blur(2px);
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../../Assets/explore-bg.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* justify-content: center; */
+    align-items: center;
+    overflow: hidden;
+}
+.backdrop-explore{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 10;
+    background: rgba(0,0,0,0.7);
+}
+
+.mid-Div{
+    margin-top: 15mm;
+    display: flex;
+    width: 100%;
+    height: 60%;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* backdrop-filter: blur(2px); */
+    /* background: rgba(0,0,0,0.7); */
+    z-index: 11;
+}
+.mid-Div h1{
+    letter-spacing: 5mm;
+    font-size: 70px;
+}
+
+.mid-Div pre{
+    font-size: 14px;
+    letter-spacing: 0.3mm;
+    /* color: tomato; */
+    color: rgba(255,255,255,0.6);
+}
+
+.mid-Div button{
+    margin-top: 1cm;
+    width: 15rem;
+    height: 3rem;
+    background-color:transparent;
+    font-size: 18px;
+    /* color: rgba(255,255,255,0.4); */
+    color: tomato;
+    /* border: 2px rgba(255,255,255,0.4) solid; */
+    border: 2px tomato solid;
+
+    transition: background-color 400ms;
+    cursor: pointer;
+}
+
+.mid-Div button:hover{
+    background-color: rgba(255,255,255,0.2);
+    color: rgba(255,255,255,0.8);
+    border: rgba(255,255,255,0.2);
+    border-bottom: 2px solid tomato
+    ;
+}
+
+.footer{
+    width: 20%;
+    margin-top: 3cm;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* background-color: palegreen; */
+    z-index: 11;
+}
+
+.footer div{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+}

@@ -1,0 +1,11 @@
+
+.study-card{
+    width: 160px;
+    height: 230px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    /* align-items: ; */
+}

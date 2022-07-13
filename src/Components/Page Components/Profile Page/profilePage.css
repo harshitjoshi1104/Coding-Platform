@@ -1,0 +1,107 @@
+.profilePage{
+    width: 60%;
+    height: 80vh;
+    background:rgba(0,0,0,0.9);
+    margin-top: 10mm;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid rgba(255,255,255,0.99);
+    border-left: 1px solid rgba(255,255,255,0.99);
+    border:2px solid white;
+    position: fixed;
+    top: 9%;
+    left: 20%;
+    z-index: 100;
+}
+
+.backdrop-profile{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.9);
+    z-index: -1;
+}
+
+.profile-right h1{
+    color: rgba(255,255,255,0.5);
+    font-family: "Poppins",sans-serif;
+    margin-bottom: 15mm;
+    /* z-index: 2; */
+}
+
+.profile-left{
+    width: 30%;
+    height: 100%;
+    /* margin-right: 5mm; */
+    padding-right: 3mm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-left img{
+    width: 90%;
+    height: 90%;
+    border-right: 1px solid orange;
+    padding-right: 4mm;
+
+}
+
+.profile-right{
+    width: 50%;
+    padding:5mm;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.profile-right div{
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 4mm;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-right div label{
+    color: rgba(255,255,255,0.5);
+    font-size: 20px;
+    font-family: "Poppins",sans-serif;
+}
+.profile-right div input{
+    color: rgba(255,255,255,0.5);
+    background-color: rgba(0,0,128,0.1);
+    border: none;
+    font-size: 16px;
+    width: 300px;
+    columns: 30;
+    padding: 2mm;
+
+}
+
+.profile-right button{
+    width: 100%;
+    height: 3rem;
+    background-color: orange;
+    font-weight: 700;
+    margin-top: 3mm;
+    margin-bottom: 3mm;
+    transition: background-color 200ms;
+    cursor: pointer;
+}
+.profile-right button:hover{
+    background-color: rgba(255, 166, 0, 0.733);
+}
+
+
+
+.questions-done{
+    width: 90%;
+    height: 900px;
+    background-color: orange;
+}

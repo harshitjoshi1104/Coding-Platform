@@ -1,0 +1,81 @@
+.quesPage{
+    width: 90%;
+    /* height: 100vh; */
+    /* background-color: green; */
+    margin-top: 4cm;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.quesPage-quesDesc{
+    width: 90%;
+    /* height: 50vh; */
+    padding-bottom: 5mm;
+    background: rgba(26,26,26,0.4);
+    backdrop-filter: blur(10px) brightness(90%) saturate(150%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5mm;
+    border-top: 1px solid rgba(255,255,255,0.4);
+    border-left: 1px solid rgba(255,255,255,0.4);
+
+    border-radius: 10px;
+
+}
+
+.quesPage-description{
+    width: 70%;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    /* cursor: pointer; */
+
+}
+
+.quesPage-description h2{
+    color: rgba(255,255,255,0.8);
+    font-size: 28px;
+}
+.quesPage-description li{
+    color:rgba(255,255,255,0.6);
+    font-size:17px;
+    line-height: 5mm;
+}
+
+.quesPage-aboutQues{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    width: 20%;
+    /* height: 80%; */
+    padding-left: 4mm;
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    height: 50%;
+    border: 1px solid rgba(255,255,255,0.3);
+    transition: height 500ms;
+    height: 50px;
+    overflow: hidden;
+    /* background-image:linear-gradient(to right,rgba(21, 58, 180, 0.2),rgba(21, 180, 130, 0.203)); */
+    background-color: rgba(255,255,255,0.3);
+    color: white;
+    cursor: pointer;
+}
+
+.quesPage-example{
+    padding-left: 5mm;
+    width: 100%;
+    /* height: 100px; */
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+.current-time{
+    display:flex;
+    flex-direction: row;
+    color: rgba(255,255,255,0.5);
+}
+.avg-time{
+    color: rgba(255,255,255,0.5);
+}

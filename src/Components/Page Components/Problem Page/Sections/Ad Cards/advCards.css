@@ -1,0 +1,18 @@
+
+.advertise-card-panel{
+    width: 32%;
+    height: 150px;
+    /* background-color: aqua; */
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: border-top 500ms;
+    transition: border-left 500ms;
+
+}
+
+.advertise-card-panel:hover{
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+
+}

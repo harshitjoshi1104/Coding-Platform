@@ -1,0 +1,160 @@
+.code-editor{
+    width: 90%;
+    /* height: 100vh; */
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(20px) brightness(70%) saturate(150%);
+    padding: 4mm;    
+    margin-top: 1cm;
+    /* border: 2px solid black; */
+    margin-bottom: 4cm;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.editor-handling-btn{
+    margin-top: 5mm;
+    width: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+#btn-runCode{
+    width: 7rem;
+    height: 2.5rem;
+    cursor: pointer;
+    border:1px solid rgba(0,0,128,0.4);
+    font-size: 15px;
+    font-weight: 500;
+}
+#btn-submitCode{
+    font-size: 15px;
+    font-weight: 500;
+    width: 10rem;
+    height: 2.5rem;
+    background-color: royalblue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border:1px solid rgba(0,0,128,0.4);
+    transition: background-color 500ms;
+    /* transition: border 1s; */
+}
+#btn-submitCode:hover{
+    background-color: rgb(44, 79, 181);
+    /* border: 1px white solid; */
+}
+
+.code-output{
+    margin-top: 5mm;
+    width: 97%;
+    min-height: 50px;
+    background: rgba(0,0,0,0.7);
+    /* color: rgb(255,255,255,0.5); */
+    color: rgba(0,0,0,0.99);
+    border:1px solid rgba(255,255,255,0.3);
+    backdrop-filter: blur(20px) brightness(70%) saturate(150%);
+    padding: 4mm;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    transition: background-color 1s;
+}
+
+.code-output div{
+    width: 90%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid rgba(255,255,255,0.3);
+    padding-left: 5mm;
+    /* overflow-y   : scroll; */
+}
+
+.loading-output{
+    animation: loading-output-animation 1s forwards infinite linear;
+}
+
+@keyframes loading-output-animation {
+    0%{background-color: rgba(0,0,0,0.1);}
+    10%{background-color: rgba(255,255,255,0.1);}
+    20%{background-color: rgba(255,255,255,0.2);}
+    30%{background-color: rgba(255,255,255,0.3);}
+    40%{background-color: rgba(255,255,255,0.4);}
+    50%{background-color: rgba(255,255,255,0.3);}
+    60%{background-color: rgba(255,255,255,0.2);}
+    70%{background-color: rgba(255,255,255,0.1);}
+    80%{background-color: rgba(255,255,255,0.0);}
+    90%{background-color: rgba(0,0,0,0.0);}
+    100%{background-color: rgba(0,0,0,0.1);}
+}
+
+.nav-for-editor{
+    /* width: 97%; */
+    height: 3rem;
+    background-color: rgba(0,0,0,0.2);
+    margin-bottom: 3mm;
+    display: flex;
+    align-items: center ;
+    /* border: 1px solid rgba(255,255,255,0.6); */
+    padding-left: 5mm;
+    padding-right:5mm;
+}
+
+.nav-for-editor select{
+    width: 200px;
+    /* height: 60%; */
+    padding: 2mm;
+    background-color: rgba(0, 55, 128, 0.9);
+    color: white;
+}
+
+.nav-for-editor button{
+    width: 100px;
+    height: 70%;
+    margin-left: 4mm;
+    background-color: rgba(0, 55, 128, 0.4);
+    border-radius: 10px;
+    color: rgba(255,255,255,0.7);
+    transition: box-shadow 400ms;
+    transition: background-color 300ms;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+.nav-for-editor button:hover{
+    background-color: orange;
+    color: black;
+    /* box-shadow: 0px 0px 0px orange,0px 0px 20px orange,0px 0px 60px orange; */
+}
+
+.editor-user-input textarea{
+    margin-top: 5mm;
+    width: 40%;
+    height: 8rem;
+    /*  */
+
+    /* height: 2.5rem; */
+    /* width: 100%; */
+    margin-top: 4mm;
+    border-radius: 3px;
+    border:1px solid rgba(255,255,255,0.3);
+    padding-left:5mm;
+    background:rgba(255,255,255,0.1);
+    transition: background 500ms;
+    color: rgba(255,255,255,0.8);
+}
+
+.editor-user-input:focus{
+    border: 1px soild rgba(127, 255, 212,0.6);
+    background:rgba(0,0,128,0.2);
+}

@@ -1,0 +1,10 @@
+
+.advertise-card-panel{
+    width: 32%;
+    height: 150px;
+    /* background-color: aqua; */
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+
+}
